@@ -1,0 +1,35 @@
+{
+  "name": "appelectron",
+  "version": "1.0.0",
+  "description": "app ejemplo de escritorio",
+  "main": "app/index.js",
+  "scripts": {
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+    "electron": "electron app",
+    "exe": "electron-packager . --platform=win32 --arch=x64 --version=1.3.3 --ignores=node_modules/electron-* appelectron"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Joel Valdivia",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "1.3.3",
+    "es6-shim": "^0.34.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "bootstrap": "^3.3.6",
+    "es6-shim": "^0.33.3",
+    "gulp": "^3.9.0",
+    "nedb": "^1.8.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "^0.5.10"
+  }
+}
