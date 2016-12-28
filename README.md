@@ -12,6 +12,12 @@
 $ npm install electron-packager -g
 ```
 
+### Tecnologías
+
+-	(Angular 2.0)[https://angular.io/]
+-	(Electron)[http://electron.atom.io/]
+-	(nedb)[https://github.com/louischatriot/nedb]
+
 ### Instalando
 
 Clona éste repositorio
