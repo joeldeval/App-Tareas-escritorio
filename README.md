@@ -46,5 +46,12 @@ $ npm run electron
 Para empaquetar la App y generar el .EXE 
 
 ```
-$ npm run exe
+$ npm run windows
+```
+
+Para empaquetar la App y generar el .app (Mac)
+* Nota para los lotes de destino de OS X / MAS: el paquete .app sólo se puede firmar cuando se construye en una plataforma de OS X del host.
+
+```
+$ npm run mac
 ```

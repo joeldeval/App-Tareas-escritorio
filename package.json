@@ -7,7 +7,8 @@
     "build": "webpack --progress --profile --colors --display-error-details --display-cached",
     "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
     "electron": "electron app",
-    "exe": "electron-packager . --platform=win32 --arch=x64 --version=1.3.3 --ignores=node_modules/electron-* appelectron"
+    "windows": "electron-packager . --platform=win32 --arch=x64 --version=1.3.3 --ignores=node_modules/electron-* APPendientes",
+    "mac": "electron-packager . --platform=darwin --arch=x64 --version=1.3.3 --ignores=node_modules/electron-* APPendientes"
   },
   "keywords": [
     "js"
