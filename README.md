@@ -4,9 +4,9 @@
 
 ### Prerequisitos
 
-NodeJS
+-	Debes tener instalado (NodeJS)[https://nodejs.org/en/]
 
-Electron
+-	Electron
 
 ```
 $ npm install electron-packager -g
