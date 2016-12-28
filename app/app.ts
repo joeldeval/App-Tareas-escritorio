@@ -25,7 +25,7 @@ export class App {
  
     constructor (public db: Database, builder: FormBuilder) {
 
-        this.app_name = "Pendientes de Joel";
+        this.app_name = "Pendientes";
  
         this.taskForm = builder.group({
             title: ["", Validators.required],

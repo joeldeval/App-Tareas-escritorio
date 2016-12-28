@@ -21,6 +21,7 @@ function crearVentana() {
     height: 768,
     width: 1024,
   });
+  window.setMenu(null);
   // le decimos a nuestro `renderer` que cargue un archivo que tenemos en `statics/index.html`
   // acá podríamos cargar cualquier URL, por ejemplo podríamos haber iniciado un servidor HTTP
   // y luego cargar la URL de este servidor
