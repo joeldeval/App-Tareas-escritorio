@@ -20,6 +20,8 @@ function crearVentana() {
   window = new BrowserWindow({
     height: 768,
     width: 1024,
+    maximizeable: false,
+    icon:'../assets/icons/linux/icon.png'
   });
   window.setMenu(null);
   // le decimos a nuestro `renderer` que cargue un archivo que tenemos en `statics/index.html`
