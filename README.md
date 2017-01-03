@@ -37,16 +37,10 @@ Instala dependencias
 $ npm install
 ```
 
-Para contruir el proyecto
+Para contruir el proyecto e iniciar la app (recuerda tener instalado ELECTRON de manera global)
 
 ```
-$ npm run build
-```
-
-Para iniciar la app (recuerda tener instalado ELECTRON de manera global)
-
-```
-$ npm run electron
+$ npm start
 ```
 
 Para empaquetar la App y generar el .EXE 
